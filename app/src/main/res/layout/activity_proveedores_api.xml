@@ -21,6 +21,59 @@
         android:id="@+id/lvListarProductosAPI"
         android:layout_width="match_parent"
         android:layout_height="650dp" />
+    <!--
+        Integración de la API para Información de Proveedores
+
+        Funcionalidad a Implementar
+            En el proyecto de inventario, se ha integrará una API que permita acceder a la información
+            de los principales proveedores; Ejemplo: como Coca-Cola, Pepsi y Papas Margarita. Esta funcionalidad
+            busca optimizar la consulta de datos sobre los productos disponibles, precios, tiempos de
+            entrega y contactos de los proveedores, permitiendo a los usuarios del sistema tomar
+            decisiones informadas de manera eficiente.
+
+        Descripción de la API
+            La API de selección para este proyecto provee datos estructurados en formato JSON, los
+            cuales incluyen:
+
+            Nombre del proveedor.
+            Lista de productos ofrecidos.
+            Precio por producto.
+            Información de contacto.
+
+            Se utilizara la herramienta Retrofit para consumir los datos de la API. La API responde
+            a solicitudes HTTP GET, entregando la información necesaria para ser desplegada en el
+            módulo de proveedores_api de la aplicación.
+
+        Integración en la Aplicación
+            La integración de la API se realizará de la siguiente manera:
+
+        1.Implementación de Retrofit:
+            Se utilizará Retrofit, una biblioteca de cliente HTTP en Android, para gestionar las
+            solicitudes y respuestas de la API.
+
+        2.Definición de la interfaz de la API:
+            La interfaz contiene la configuración para realizar la solicitud de datos
+
+        3.Estructura de los datos:
+            Los datos recibidos se almacenan en una clase modelo llamada ProveedorAPI
+
+        4.Visualización de datos:
+            La información de los proveedores se muestra en un RecyclerView en la sección "proveedores_api".
+            Esto facilita al usuario la navegación y consulta de la información de manera intuitiva.
+
+        Propósito y Beneficio de la API
+            El objetivo de esta funcionalidad es proporcionar acceso dinámico y centralizado a los
+            datos de los proveedores, asegurando que la información siempre esté actualizada. Esto
+            beneficia a la gestión del inventario, permitiendo optimizar los procesos de compra y
+            reposición de productos.
+
+        Simulación de consumo de API
+            Para propósitos académicos, en no contar con una API real, se empleará una simulación
+            de datos utilizando una herramienta como MockAPI, simular una API con json-server o crear
+            una API simulada con Node.js y Express, la cual ofrece respuestas estructuradas en JSON.
+            Este enfoque permitirá validar la funcionalidad sin necesidad de
+            acceder a un servicio en producción.
+    -->
     <Button
         android:id="@+id/btnVolverGestionInventario"
         android:layout_width="match_parent"
