@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp"
+    tools:context=".views.Dashboard">
+
+    <TextView
+        android:id="@+id/tvTitleDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTitleDashboard"
+        android:textAlignment="center"
+        android:textSize="@android:dimen/app_icon_size"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btnGestionInventory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/BotonGeneral"
+        android:textColor="@color/white"
+        android:text="@string/btnGestionInventory"
+        android:padding="12dp"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:id="@+id/btnConsults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/BotonGeneral"
+        android:textColor="@color/white"
+        android:text="@string/btnConsults"
+        android:padding="12dp"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:id="@+id/btnConfiguration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/BotonGeneral"
+        android:textColor="@color/white"
+        android:text="@string/btnConfiguration"
+        android:padding="12dp"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/BotonGeneral"
+        android:textColor="@color/white"
+        android:text="@string/btnExit"
+        android:padding="12dp"
+        android:layout_margin="3dp"/>
+</LinearLayout>

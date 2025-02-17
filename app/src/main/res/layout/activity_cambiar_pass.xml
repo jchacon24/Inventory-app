@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.CambiarPass">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvCambiarPass"
+        android:textAlignment="center"
+        android:textSize="@android:dimen/app_icon_size"
+        android:padding="16dp" />
+    <EditText
+        android:id="@+id/etUserCambiarPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:padding="12dp"
+        android:hint="@string/etNuevaContraseñaUser"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/etNuevaPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:padding="12dp"
+        android:hint="@string/etNuevaContraseña"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btnGuardarPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/BotonEditar"
+        android:textColor="@color/white"
+        android:text="@string/btnGuardarPass"/>
+    <Button
+        android:id="@+id/btnSalirDeSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/BotonVolver"
+        android:textColor="@color/white"
+        android:text="@string/btnCerrar" />
+</LinearLayout>

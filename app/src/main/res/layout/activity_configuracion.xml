@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.Configuracion">
+    <TextView
+        android:id="@+id/tvTitleConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTitleConfig"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textAlignment="center"
+        android:padding="16dp"/>
+    <Button
+        android:id="@+id/btnCambiarPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/BotonGeneral"
+        android:textColor="@color/white"
+        android:text="@string/btnCambiarPass" />
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/BotonVolver"
+        android:textColor="@color/white"
+        android:text="@string/btnCerrarSesion" />
+</LinearLayout>

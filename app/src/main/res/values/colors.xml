@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="BotonLogin">#673AB7</color>
+    <color name="Recuperar_Registrar">#00BCD4</color>
+    <color name="BotonGeneral">#007bff</color>
+    <color name="BotonVolver">#F28C38</color>
+    <color name="BotonEditar">#6CC4C4</color>
+    <color name="BotonEliminar">#E57373</color>
+</resources>

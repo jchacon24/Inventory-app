@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Inventario App</string>
+    //LogIn
+    <string name="tvTitleLogin">Iniciar Sesión</string>
+    <string name="etMail">Usuario</string>
+    <string name="etPassword">Contraseña</string>
+    <string name="btnAcceder">Acceder</string>
+    <string name="tvRecuperarPass">Recuperar contraseña</string>
+    <string name="tvRegistrarse">¿No tienes cuenta? Registrate</string>
+    //Dashboard
+    <string name="tvTitleDashboard">Dashboard</string>
+    <string name="btnGestionInventory">Gestión de Inventario</string>
+    <string name="btnConsults">Consultas</string>
+    <string name="btnConfiguration">Configuración</string>
+    <string name="btnExit">Cerrar Sesión</string>
+    //Consultas
+    <string name="tvTitleConsultas">Consultas</string>
+    <string name="btnProductosAgotados">Productos Agotados</string>
+    <string name="btnStockBajo">Stock Bajo</string>
+    <string name="btnHistorial">Historial de Modificaciones</string>
+    <string name="btnConsultasVolver">Volver</string>
+    //Configuración
+    <string name="tvTitleConfig">Configuración</string>
+    <string name="btnCambiarPass">Cambiar Contraseña</string>
+    <string name="btnCerrarSesion">Cerrar Sesión</string>
+    //Recuperar contraseña
+    <string name="tvCambiarPass">Cambiar Contraseña</string>
+    <string name="etNuevaContraseñaUser">Ingrese su usuario</string>
+    <string name="etNuevaContraseña">Ingrese su nueva contraseña</string>
+    <string name="btnGuardarPass">Guardar nueva contraseña</string>
+    <string name="btnCerrar">Cerrar</string>
+    //Registrar Usuario
+    <string name="tvNuevoUser">Registrarse</string>
+    <string name="etNuevoUser">Ingrese su usuario</string>
+    <string name="etNuevaPass">Ingrese su contraseña</string>
+    <string name="btnGuardarNuevoUser">Guardar usuario</string>
+    <string name="btnCerrarVentana">Cerrar</string>
+    //Gestión de inventario
+    <string name="tvTitleGesInventario">Gestión de Inventario</string>
+    <string name="etNombreProducto">Nombre del producto</string>
+    <string name="etCantidadProducto">Cantidad</string>
+    <string name="etPrecio">Precio</string>
+    <string name="btnAgregarPro">Agregar producto</string>
+    <string name="btnVolverDash">Volver</string>
+    <string name="lvListaPro">Lista de productos</string>
+    <string name="btnConsultarAPI">Consumir API deproveedor</string>
+    //ApiProveedores
+    <string name="tvTitleProveedores">Productos Proveedores</string>
+    <string name="btnVolverGestionInventario">Volver Gestión Inventario</string>
+</resources>

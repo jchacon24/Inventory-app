@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp"
+    tools:context=".views.Consultas"
+    android:textAlignment="center">
+
+    <TextView
+        android:id="@+id/tvTitleConsultas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTitleConsultas"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textAlignment="center"
+        android:padding="16dp"/>
+    <Button
+        android:id="@+id/btnProductosAgotados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/BotonGeneral"
+        android:textColor="@color/white"
+        android:text="@string/btnProductosAgotados"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/btnStockBajo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/BotonGeneral"
+        android:textColor="@color/white"
+        android:text="@string/btnStockBajo"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/btnHistorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/BotonGeneral"
+        android:textColor="@color/white"
+        android:text="@string/btnHistorial"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/btnConsultasVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/BotonVolver"
+        android:textColor="@color/white"
+        android:text="@string/btnConsultasVolver"
+        android:padding="10dp"/>
+
+    <ListView
+        android:id="@+id/lvLista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
